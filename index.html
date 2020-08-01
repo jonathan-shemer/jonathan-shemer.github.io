@@ -15,30 +15,32 @@
 			}
 			h1 {
 				line-height: 48px;
+				color: #2f2f41;
 			}
 			h2 {
 				line-height: 32px;
+				color: #2f2f41;
 			}
 			p {
 				line-height: 24px;
+				color: #2f2f41;
 			}
 			a:link, a:visited {
-			  color: #14a37f;
+			  color: #497dfa;
 			  background-color: transparent;
 			  text-decoration: none;
 			}
 			a:active, a:hover {
-			  color: #4aedc4;
+			  color: #3e6ad4;
 			  background-color: transparent;
 			  text-decoration: underline;
 			}
 
 			.container {
 			  	margin: 0 5vw;
-			  	height: 100vh;
 				display: grid;
 				grid-template-columns: minmax(auto , 45%) 1fr;
-				grid-template-rows: minmax(auto , 8vh) auto auto 1fr auto minmax(5vh , 8vh);
+				grid-template-rows: minmax(auto , 8vh) auto auto 1fr 1fr minmax(5vh , 8vh);
 			}
 			.title {
 				grid-row: 2;
@@ -64,18 +66,18 @@
 				width: 40vw;
 				height: 28.3561004991vw;
 			}
+			.linkedin {
+				width: auto;
+			}
+			.github {
+				margin-left: auto;
+			}
 			.social {
 				grid-row: 5;
     			height: 28px;
     			line-height: 28px;
     			grid-column: 1;
-			}
-			.linkedin {
-				width: auto;
-				margin: 0;
-			}
-			.github {
-				margin-left: auto;
+    			margin-top: auto;
 			}
 
 			@media only screen and (max-width:480px) {
@@ -92,12 +94,10 @@
 					color: #c4c5c9
 				}
 				a:link, a:visited {
-					color: #1de9b6;
 					background-color: transparent;
 					text-decoration: none;
 				}
 				a:active, a:hover {
-					color: #4aedc4;
 					background-color: transparent;
 					text-decoration: underline;
 				}
